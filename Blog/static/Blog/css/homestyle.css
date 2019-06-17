@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+/*Hero Section */
+.herosection{
+	background-image: url('../images/topbgimage.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	font-family: 'Comfortaa', cursive;
+}
+.font-confortaa{
+	font-family: 'Comfortaa', cursive;
+}
+/*end Hero Section /*
+
+/*Navbar*/
+#navbarTopFixed{
+	transition: all .7s;
+}
+
+.bgNavbar{
+	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
+}
+/*end Navbar*/
+
+
+/*Post Style*/
+.postContent{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 25px;
+}
+
+.text-about-us
+{
+	font-size:20px; 
+	font-family: 'Comfortaa', cursive;
+}
+.rndmBgClr{
+	font-family: 'Lobster', cursive;
+}
+
+@media (max-width: 780px) and (min-width: 360px) {
+	.borderRemove{
+		border-bottom: 1px solid black; 
+	}
+}
